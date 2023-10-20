@@ -1,0 +1,111 @@
+<FacultadDeSistemas>
+    <Alumno>
+        <codigo>16200178</codigo>
+        <nombre>Juan</nombre>
+        <apellidos>De la Cruz Santos</apellidos>
+        <dni>8923471</dni>
+        <correo_personal>juan.cruz@gmail.com</correo_personal>
+        <correo_institucional>juan.cruz@unmsm.edu.pe</correo_institucional>
+    </Alumno>
+    <curso>
+        <codigo>SIS234</codigo>
+        <nombre>Algoritmica</nombre>
+        <seccion>g1</seccion>
+        <numero_creditos>4</numero_creditos>
+        <nota>11</nota>
+    </curso>
+    <Profesor>
+        <codigo>11200438</codigo>
+        <nombre>Diego</nombre>
+        <apellidos>Sanchez Rojas</apellidos>
+        <correo_personal>diego.sanchez@gmail.com</correo_personal>
+        <correo_institucional>diego.sanchez@unmsm.edu.pe</correo_institucional>
+    </Profesor>
+    <Matricula>
+        <codigo>2023C1</codigo>
+        <descripcion>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </descripcion>
+        <activo>Si</activo>
+        <fecha_creacion>04-22-2023</fecha_creacion>
+    </Matricula>
+    <PlanDeEstudio>
+        <codigo>2014C1</codigo>
+        <nombre>Plan 2014</nombre>
+        <descripcion>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </descripcion>
+        <activo>Si</activo>
+        <fecha_creacion>04-22-2023</fecha_creacion>
+    </PlanDeEstudio>
+    <AreaAdministrativa>
+        <DepartamentoAcademico>
+            <codigo>001DP</codigo>
+            <descripcion>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </descripcion>
+        </DepartamentoAcademico>
+        <AreaDeMatricula>
+            <codigo>001DP</codigo>
+            <descripcion>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </descripcion>
+        </AreaDeMatricula>
+        <EscuelaProfesional>
+            <codigo>001DP</codigo>
+            <nombre>EAP001 Sistemas e Informatica</nombre>
+            <descripcion>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </descripcion>
+        </EscuelaProfesional>
+    </AreaAdministrativa>
+    <PersonalAdministrativo>
+        <codigo>26220238</codigo>
+        <nombre>Erik</nombre>
+        <apellidos>Milon Tacas</apellidos>
+        <correo_institucional>erik.milon@unmsm.edu.pe</correo_institucional>
+    </PersonalAdministrativo>
+    <Facultad>
+        <codigo>26220238</codigo>
+        <nombre>Sistemas</nombre>
+        <descripcion>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </descripcion>
+    </Facultad>
+</FacultadDeSistemas>

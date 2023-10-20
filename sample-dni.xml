@@ -1,0 +1,20 @@
+<DocumentoDeIdentidad>
+    <CodigoUnicoIdentificacion>74870768</CodigoUnicoIdentificacion>
+    <CaracterVerificacion>4</CaracterVerificacion>
+    <PrimerApellido>LLancari</PrimerApellido>
+    <SegundoApellido>Carrasco</SegundoApellido>
+    <Nombre>Victor</Nombre>
+    <FechaNacimiento>01 01 1990</FechaNacimiento>
+    <Ubigeo>123456</Ubigeo>
+    <Sexo>M</Sexo>
+    <EstadoCivil>S</EstadoCivil>
+    <FechaInscripcion>19 10 2023</FechaInscripcion>
+    <FechaEmision>19 10 2023</FechaEmision>
+    <FechaCaducidad>19 10 2030</FechaCaducidad>
+    <Departamento>Lima</Departamento>
+    <Provincia>Lima</Provincia>
+    <Distrito>Lima</Distrito>
+    <Direccion>Calle Ficticia, 123</Direccion>
+    <DonacionOrganos>NO</DonacionOrganos>
+    <GrupoVotacion>281261</GrupoVotacion>
+</DocumentoDeIdentidad>

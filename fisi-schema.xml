@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="FacultadDeSistemas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Alumno">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:unsignedInt" />
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="apellidos" type="xs:string" />
+              <xs:element name="dni" type="xs:unsignedInt" />
+              <xs:element name="correo_personal" type="xs:string" />
+              <xs:element name="correo_institucional" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="curso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string" />
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="seccion" type="xs:string" />
+              <xs:element name="numero_creditos" type="xs:unsignedByte" />
+              <xs:element name="nota" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Profesor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:unsignedInt" />
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="apellidos" type="xs:string" />
+              <xs:element name="correo_personal" type="xs:string" />
+              <xs:element name="correo_institucional" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Matricula">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string" />
+              <xs:element name="descripcion" type="xs:string" />
+              <xs:element name="activo" type="xs:string" />
+              <xs:element name="fecha_creacion" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PlanDeEstudio">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string" />
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="descripcion" type="xs:string" />
+              <xs:element name="activo" type="xs:string" />
+              <xs:element name="fecha_creacion" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AreaAdministrativa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DepartamentoAcademico">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="codigo" type="xs:string" />
+                    <xs:element name="descripcion" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="AreaDeMatricula">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="codigo" type="xs:string" />
+                    <xs:element name="descripcion" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="EscuelaProfesional">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="codigo" type="xs:string" />
+                    <xs:element name="nombre" type="xs:string" />
+                    <xs:element name="descripcion" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PersonalAdministrativo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:unsignedInt" />
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="apellidos" type="xs:string" />
+              <xs:element name="correo_institucional" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Facultad">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:unsignedInt" />
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="descripcion" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
